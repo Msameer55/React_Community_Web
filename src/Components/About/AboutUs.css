@@ -1,0 +1,119 @@
+.about-us-section {
+    overflow-x: hidden;
+    margin-top: 66px;
+}
+.about-us-section .bannerimage{
+    position: relative;
+}
+
+.about-us-section .bannerimage img{
+  width: 1600px;
+}
+
+.about-us-section .about-us-card{
+    padding: 50px;
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    box-shadow: rgba(140, 57, 57, 0.2) 0px 8px 24px;
+    /* background-color: #fff; */
+    right: 5%;
+    background-color: #ffffff;
+
+
+}
+
+
+.about-us-section .about-us-card .section-1{
+    width: 100%;
+}
+
+.about-us-section .about-us-card .flex-container{
+    align-items: start;
+}
+.about-us-section .about-us-card .section-2{
+    width: 141%;
+}
+.about-us-section .about-us-card .heading{
+    font-size: 48px;
+    font-family: "Inter-bold";
+    text-transform: uppercase;
+
+}
+
+.about-us-section .about-us-card  .para{
+    font-size: 18px;
+    font-family: "Inter-regular";
+    margin: 0 0 30px 0;
+}
+
+.margin{
+    margin: 0 50px;
+}
+
+.about-us-section .about-us-btn{
+    margin-top: 90px;
+}
+
+ .cta-container{
+    background: linear-gradient(to bottom, #059669, #549d86);
+
+    margin-top: 350px;
+    padding: 80px;
+    color: #ffffff;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.cta-container .container{
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+.cta-container .tagline{
+    font-size: 16px;
+    font-family: "Inter-regular";
+    color: var(--gray-3);
+    margin:0 0 20px 0;
+}
+
+.cta-container .heading{
+    font-size: 36px;
+    font-family: "Inter-Bold";
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cta-container .cta-btn{
+    padding: 16px 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    font-size: 16px;
+    font-family:"Inter-semi-bold";
+    cursor: pointer;
+
+}
+
+
+.companies-section {
+    margin-bottom: 50px;
+}
+.companies-section .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.companies-section .logos img{
+    margin: 0 40px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+
+.companies-section .logos img:hover{
+    transform: translateY(-10px) scale(1);
+}

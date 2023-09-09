@@ -1,0 +1,106 @@
+.hero-background {
+    overflow: hidden;
+    position: relative;
+
+}
+
+.hero-background img {
+    width: 1551px;
+    height: 100%;
+    filter: brightness(0.5);
+}
+
+.hero-background .content{
+    position: absolute;
+    top: 30%;
+    left: 9%;
+    color: #fff;
+ 
+}
+.hero-background .content .heading p{
+    font-size: 72px;
+    font-family: "Inter-bold";
+    text-align: left;
+
+}
+.hero-background .content .sub-heading{
+    max-width: 800px;
+    line-height:30px;
+}
+.hero-background .content .sub-heading p{
+    font-family: "Inter-regular";
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.button-container{
+    margin: 40px 0;
+    display: block;
+}
+
+.button-container .home-btn{
+    padding:16px 20px;
+    background-color: var(--primary);
+    font-size: 16px;
+    font-family: "Inter-semi-bold";
+    text-decoration: none;
+    color: var(--white);
+    border-radius: 8px;
+    transition: all 0.2s ease-in;
+    font-size: 16px;
+}
+
+.button-container .secondary-btn{
+    padding:16px 20px;
+    background-color: var(--white);
+    margin: 0 20px;
+    border-radius: 8px;
+    color: var(--primary);
+    font-family: "Inter-semi-bold";
+    font-size: 16px;
+    text-decoration:none;
+}
+
+.section-container-1{
+    margin-top: 80px;
+}
+.section-container-1 .col-1{
+    flex-basis: 50%;
+}
+
+.section-container-1 .col-1 .tagline p{
+    font-size: 16px;
+    font-family:"Inter-regular";
+    letter-spacing: 1.6px;
+    color: var(--gray-5);
+    margin: 10px 0;
+}
+
+.section-container-1 .col-1 .heading{
+    font-size: 48px;
+    font-family: "Inter-bold";
+    color: #101828;
+}
+
+.section-container-1 .col-1 .para{
+    color: var(--gray-5);
+    font-size: 18px;
+    font-family: "Inter-ragular";
+    line-height: 28px;
+    margin: 15px 0;
+}
+.section-container-1 .col-2{
+    flex-basis: 33%;
+    margin-top: -180px;
+}
+
+.section-container-1 .col-2 .images{
+   position: relative;
+}
+
+.section-container-1 .col-2 .images .img-2{
+    position: absolute;
+    top: 83%;
+    right: 52%;
+}

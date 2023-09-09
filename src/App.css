@@ -1,0 +1,67 @@
+/* src/styles/fonts.css (or your component's CSS/SCSS file) */
+@font-face {
+    font-family: 'Inter-semi-bold';
+    src:
+        url('./fonts/Inter-SemiBold.ttf');
+    font-style: normal;
+ 
+
+}
+
+@font-face {
+    font-family: 'Inter-bold';
+    src: 
+        url('./fonts/Inter-Bold.ttf') ;
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter-regular';
+    src:
+        url('./fonts/Inter-Regular.ttf');
+    font-style: normal;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+
+
+:root {
+    /* Colors */
+    --primary: #34D399;
+    --white: #FFFFFF;
+    --gray-1: #F9FAFB;
+    --gray-2: #F2F4F7;
+    --gray-3: #EAECF0;
+    --gray-4: #98A2B3;
+    --gray-5: #475467;
+    --gray-6: #000000;
+
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.green{
+    color: var(--primary);
+}

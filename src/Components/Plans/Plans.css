@@ -1,0 +1,130 @@
+.pricing-container{
+    background-color: var(--gray-2);
+    padding: 100px 100px 400px 100px;
+    position: relative;
+margin-top: 70px;
+
+}
+
+.pricing-container .text-container{
+    display: flex;
+    justify-content: space-between;
+    align-items:start;
+
+}
+
+.pricing-container .heading{
+    font-size: 48px;
+    font-family: "Inter-Bold";
+    /* margin-right: 50px; */
+    width: 100%;
+    margin-left: 19px;
+}
+
+.pricing-container .para{
+    font-size: 18px;
+    font-family: "Inter-regular";
+    line-height: 1.4;
+}
+
+.pricing-cards{
+    position: absolute;
+    top: 40%;
+    /* left: 10%; */
+    right: 11%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+
+.pricing-cards .card{
+    padding: 10px 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 380px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    height: 500px;
+}
+
+.pricing-cards .card .plan{
+    font-size: 20px;
+    font-family: "Inter-semi-bold";
+    margin: 10px 0;
+}
+.pricing-cards .card .rate{
+    font-size: 48px;
+    font-family: "Inter-semi-bold";
+    margin: 10px 0;
+}
+.pricing-cards .card .month{
+    font-size: 20px;
+    font-family: "Inter-semi-bold";
+    margin: 10px 0;
+}
+.pricing-cards .card .para{
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 20px 0 10px 0;
+}
+
+.pricing-cards .card .lists{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin: 30px 0;
+    flex-grow: 1;
+}
+
+.pricing-cards .card .lists p{
+    margin: 10px 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-cards .card .lists .tick-sign{
+    color: var(--primary);
+    margin: 0 10px 0 0;
+}
+
+/* .pricing-section .margin
+{
+    margin: 300px 0 ;
+} */
+
+
+.marquee-section{
+    margin-top: 150px;
+    position: relative;
+    bottom: -100px;
+    left: 0;
+/* background-color: black; */
+
+ 
+}
+
+.marquee-items{
+    padding: 100px 0 100px 0;
+}
+
+.marquee-container {
+    overflow-y: hidden;
+    background-color: #f8f8f8;
+    padding: 30px ;
+    --pause-on-hover: true;
+}
+
+.marquee img{
+    margin: 0 20px;
+    width: 210px;
+    height: 61px;
+}
